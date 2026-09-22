@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nashrah Fatma — Software Engineer</title>
+<title>Nashrah Fatma — Software Engineer / Data Analyst</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="mode-software">
 
 <div class="noise"></div>
 
@@ -45,28 +45,28 @@
       <h1 class="name">Nashrah Fatma</h1>
 
      <p class="tagline">
-  <span class="copy-software">
+  <span class="role-block role-software">
     Software Engineer & Python Developer focused on backend systems,
     APIs, real-time applications, and computer vision.
   </span>
 
-  <span class="copy-analytics">
+  <span class="role-block role-analytics">
     Data Analyst focused on SQL, Python, data cleaning,
     exploratory analysis, and interactive dashboards.
   </span>
 </p>
-      
+
 <!-- ROLE SWITCHER -->
 <div class="role-switch" aria-label="Portfolio role">
-  <button class="role-btn active" data-mode="software">
+  <button class="role-btn active" data-mode="software" type="button">
     Software Engineer
   </button>
 
-  <button class="role-btn" data-mode="analytics">
+  <button class="role-btn" data-mode="analytics" type="button">
     Data Analyst
   </button>
 </div>
-      
+
       <div class="availability">
 
         <span class="avail-chip">
@@ -151,7 +151,8 @@
     </div>
 
     <div class="sec-title">
-      A builder who's expanding into backend engineering
+      <span class="role-block role-software">A builder who's expanding into backend engineering</span>
+      <span class="role-block role-analytics">A builder who thinks in queries, cohorts, and dashboards</span>
     </div>
 
   </div>
@@ -165,15 +166,25 @@
         I'm a Computer Science Engineering graduate (B.Tech, 2026)
         from Sushila Devi Bansal College of Engineering, where I held
         <b>Rank 1</b> throughout the program with a CGPA of 8.88/10.
-        I build practical software across backend APIs, databases,
-        real-time applications, and computer vision.
+        <span class="role-block role-software">I build practical software across backend APIs, databases,
+        real-time applications, and computer vision.</span>
+        <span class="role-block role-analytics">I turn raw, messy data into clean datasets and interactive
+        dashboards — using SQL for analysis, Python for cleaning and pipelines,
+        and Excel/Chart.js for reporting that's easy for stakeholders to read.</span>
       </p>
 
-      <p>
+      <p class="role-block role-software">
         I'm looking for <b>Software Engineer</b>,
         <b>Python Developer</b>, and
         <b>Graduate Engineer Trainee</b> roles where I can keep
         shipping real, working software from day one.
+      </p>
+
+      <p class="role-block role-analytics">
+        I'm looking for <b>Data Analyst</b> and
+        <b>Business/Reporting Analyst</b> roles where I can turn
+        business questions into SQL queries, clean data pipelines,
+        and dashboards that drive decisions.
       </p>
 
     </div>
@@ -192,8 +203,12 @@
       </div>
 
       <div class="stat-card">
-        <div class="stat-num">5</div>
-        <div class="stat-label">End-to-end projects shipped</div>
+        <div class="stat-num role-block role-software">5</div>
+        <div class="stat-num role-block role-analytics">3</div>
+        <div class="stat-label">
+          <span class="role-block role-software">End-to-end projects shipped</span>
+          <span class="role-block role-analytics">End-to-end data analytics projects</span>
+        </div>
       </div>
 
       <div class="stat-card">
@@ -237,20 +252,57 @@
 
         <span class="chip">Python</span>
         <span class="chip">JavaScript</span>
+        <span class="chip">SQL</span>
         <span class="chip">C++</span>
         <span class="chip">C</span>
         <span class="chip">Java</span>
-        <span class="chip">SQL</span>
 
       </div>
 
     </div>
 
 
-    <div class="skill-card">
+    <div class="skill-card role-block role-analytics">
 
       <div class="skill-card-title">
-        Backend & APIs
+        Data Analysis
+      </div>
+
+      <div class="chip-row">
+
+        <span class="chip">SQL (CTEs &amp; Window Functions)</span>
+        <span class="chip">Pandas</span>
+        <span class="chip">NumPy</span>
+        <span class="chip">Data Cleaning</span>
+        <span class="chip">Excel</span>
+
+      </div>
+
+    </div>
+
+
+    <div class="skill-card role-block role-analytics">
+
+      <div class="skill-card-title">
+        Dashboards &amp; Reporting
+      </div>
+
+      <div class="chip-row">
+
+        <span class="chip">Chart.js</span>
+        <span class="chip">Excel Dashboards</span>
+        <span class="chip">Cohort / Retention Analysis</span>
+        <span class="chip">KPI Reporting</span>
+
+      </div>
+
+    </div>
+
+
+    <div class="skill-card role-block role-software">
+
+      <div class="skill-card-title">
+        Backend &amp; APIs
       </div>
 
       <div class="chip-row">
@@ -266,7 +318,7 @@
     </div>
 
 
-    <div class="skill-card">
+    <div class="skill-card role-block role-software">
 
       <div class="skill-card-title">
         Web Development
@@ -278,6 +330,23 @@
         <span class="chip">CSS3</span>
         <span class="chip">JavaScript</span>
         <span class="chip">Tailwind CSS</span>
+
+      </div>
+
+    </div>
+
+
+    <div class="skill-card role-block role-software">
+
+      <div class="skill-card-title">
+        Computer Vision
+      </div>
+
+      <div class="chip-row">
+
+        <span class="chip">OpenCV</span>
+        <span class="chip">MediaPipe</span>
+        <span class="chip">YOLO</span>
 
       </div>
 
@@ -305,24 +374,7 @@
     <div class="skill-card">
 
       <div class="skill-card-title">
-        Computer Vision
-      </div>
-
-      <div class="chip-row">
-
-        <span class="chip">OpenCV</span>
-        <span class="chip">MediaPipe</span>
-        <span class="chip">YOLO</span>
-
-      </div>
-
-    </div>
-
-
-    <div class="skill-card">
-
-      <div class="skill-card-title">
-        Tools & Platforms
+        Tools &amp; Platforms
       </div>
 
       <div class="chip-row">
@@ -355,15 +407,17 @@
     </div>
 
     <div class="sec-sub">
-      Production-style projects focused on Python, backend development,
-      APIs, databases, and real-time systems.
+      <span class="role-block role-software">Production-style projects focused on Python, backend development,
+      APIs, databases, and real-time systems.</span>
+      <span class="role-block role-analytics">End-to-end analytics projects — SQL data cleaning and analysis,
+      Python pipelines, and interactive dashboards built to answer real business questions.</span>
     </div>
 
   </div>
 
 
-  <!-- FEATURED PROJECTS -->
-  <div class="featured-projects">
+  <!-- FEATURED PROJECTS — SOFTWARE -->
+  <div class="featured-projects role-block role-software">
 
 
     <!-- REAL-TIME COLLABORATIVE EDITOR -->
@@ -423,7 +477,7 @@
 
         <div class="project-actions">
 
-          <a
+          
             class="project-link project-live"
             href="https://web-production-cf803.up.railway.app"
             target="_blank"
@@ -432,7 +486,7 @@
             Live Demo ↗
           </a>
 
-          <a
+          
             class="project-link project-github"
             href="https://github.com/nashrahfatma/real-time-collaborative-editor"
             target="_blank"
@@ -471,7 +525,7 @@
         <div class="project-top">
 
           <div class="project-title">
-            LinkForge — URL Shortener & Analytics
+            LinkForge — URL Shortener &amp; Analytics
           </div>
 
           <div class="project-date">
@@ -504,7 +558,7 @@
 
         <div class="project-actions">
 
-          <a
+          
             class="project-link project-live"
             href="https://url-shortener-analytics-gxs3.onrender.com"
             target="_blank"
@@ -513,7 +567,7 @@
             Live Demo ↗
           </a>
 
-          <a
+          
             class="project-link project-github"
             href="https://github.com/nashrahfatma/url-shortener-analytics"
             target="_blank"
@@ -532,177 +586,428 @@
   </div>
 
 
-  <!-- OTHER PROJECTS -->
-  <div class="projects-secondary-head">
+  <!-- FEATURED PROJECTS — DATA ANALYST -->
+  <div class="featured-projects role-block role-analytics">
 
-    <span>
-      Other projects
-    </span>
 
-    <span>
-      Computer Vision · Full Stack
-    </span>
+    <!-- RETAIL SALES ANALYTICS -->
+    <article class="project-card project-featured">
+
+      <div class="project-image-wrap">
+
+        <img
+          class="project-image"
+          src="assets/project-retail-analytics.png"
+          alt="Indian Retail Sales Analytics Dashboard"
+        >
+
+        <span class="project-badge">
+          Featured · SQL + Excel + Dashboard
+        </span>
+
+      </div>
+
+
+      <div class="project-content">
+
+        <div class="project-top">
+
+          <div class="project-title">
+            Indian Retail Sales Analytics
+          </div>
+
+          <div class="project-date">
+            2026
+          </div>
+
+        </div>
+
+
+        <div class="project-desc">
+
+          End-to-end analytics on 8,000 orders across 500 customers and 25
+          products: SQL data cleaning and analysis (joins, CTEs, window
+          functions), a formula-driven Excel dashboard, and a live
+          interactive web dashboard. Found Beauty as the top revenue
+          category and a recurring December revenue dip worth a targeted
+          promotion.
+
+        </div>
+
+
+        <div class="project-tags">
+
+          <span class="tag">SQL</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">Excel</span>
+          <span class="tag">Chart.js</span>
+
+        </div>
+
+
+        <div class="project-actions">
+
+          
+            class="project-link project-live"
+            href="https://nashrahfatma.github.io/retail-sales-analytics/"
+            target="_blank"
+            rel="noopener"
+          >
+            Live Dashboard ↗
+          </a>
+
+          
+            class="project-link project-github"
+            href="https://github.com/nashrahfatma/retail-sales-analytics"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub ↗
+          </a>
+
+        </div>
+
+      </div>
+
+    </article>
+
+
+    <!-- COHORT RETENTION DASHBOARD -->
+    <article class="project-card project-featured">
+
+      <div class="project-image-wrap">
+
+        <img
+          class="project-image"
+          src="assets/project-cohort-retention.png"
+          alt="Cohort Retention Dashboard"
+        >
+
+        <span class="project-badge">
+          Featured · SQL + Cohort Analysis
+        </span>
+
+      </div>
+
+
+      <div class="project-content">
+
+        <div class="project-top">
+
+          <div class="project-title">
+            Subscription Retention &amp; Churn Analytics
+          </div>
+
+          <div class="project-date">
+            2026
+          </div>
+
+        </div>
+
+
+        <div class="project-desc">
+
+          Cohort retention analysis for a subscription business across
+          13,960 users and 30 signup cohorts, using recursive CTEs and
+          window functions, with a live cohort retention heatmap. Found
+          annual plans retain 3.4× better than monthly, and the steepest
+          drop-off happens in month 0→1.
+
+        </div>
+
+
+        <div class="project-tags">
+
+          <span class="tag">SQL</span>
+          <span class="tag">Recursive CTEs</span>
+          <span class="tag">Window Functions</span>
+          <span class="tag">Chart.js</span>
+
+        </div>
+
+
+        <div class="project-actions">
+
+          
+            class="project-link project-live"
+            href="https://nashrahfatma.github.io/cohort-retention-dashboard/"
+            target="_blank"
+            rel="noopener"
+          >
+            Live Dashboard ↗
+          </a>
+
+          
+            class="project-link project-github"
+            href="https://github.com/nashrahfatma/cohort-retention-dashboard"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub ↗
+          </a>
+
+        </div>
+
+      </div>
+
+    </article>
+
 
   </div>
 
 
-  <div class="project-grid project-grid-secondary">
+  <!-- OTHER PROJECTS — SOFTWARE -->
+  <div class="role-block role-software">
+
+    <div class="projects-secondary-head">
+
+      <span>
+        Other projects
+      </span>
+
+      <span>
+        Computer Vision · Full Stack
+      </span>
+
+    </div>
 
 
-    <!-- EXAM MONITORING -->
-    <article class="project-card">
+    <div class="project-grid project-grid-secondary">
 
-      <img
-        class="project-image"
-        src="assets/project-exam.png"
-        alt="Intelligent Exam Monitoring System dashboard"
-      >
 
-      <div class="project-top">
+      <!-- EXAM MONITORING -->
+      <article class="project-card">
 
-        <div class="project-title">
-          IVB-EMS — Exam Monitoring System
+        <img
+          class="project-image"
+          src="assets/project-exam.png"
+          alt="Intelligent Exam Monitoring System dashboard"
+        >
+
+        <div class="project-top">
+
+          <div class="project-title">
+            IVB-EMS — Exam Monitoring System
+          </div>
+
+          <div class="project-date">
+            Jan – May 2026
+          </div>
+
         </div>
 
-        <div class="project-date">
-          Jan – May 2026
+
+        <div class="project-desc">
+
+          An AI-driven online proctoring tool that analyzes webcam
+          video in real time to flag prohibited objects and monitor
+          candidate attention, with an automated alert-and-evidence
+          pipeline.
+
         </div>
 
-      </div>
 
+        <div class="project-tags">
 
-      <div class="project-desc">
+          <span class="tag">Python</span>
+          <span class="tag">Computer Vision</span>
 
-        An AI-driven online proctoring tool that analyzes webcam
-        video in real time to flag prohibited objects and monitor
-        candidate attention, with an automated alert-and-evidence
-        pipeline.
-
-      </div>
-
-
-      <div class="project-tags">
-
-        <span class="tag">Python</span>
-        <span class="tag">Computer Vision</span>
-
-      </div>
-
-
-      <a
-        class="project-link"
-        href="https://github.com/nashrahfatma/Intelligent-Exam-Monitoring-System"
-        target="_blank"
-        rel="noopener"
-      >
-        GitHub ↗
-      </a>
-
-    </article>
-
-
-    <!-- VIRTUAL MOUSE -->
-    <article class="project-card">
-
-      <img
-        class="project-image"
-        src="assets/project-mouse.png"
-        alt="Gesture-Controlled Virtual Mouse"
-      >
-
-      <div class="project-top">
-
-        <div class="project-title">
-          Gesture-Controlled Virtual Mouse
         </div>
 
-        <div class="project-date">
-          Oct – Dec 2025
+
+        
+          class="project-link"
+          href="https://github.com/nashrahfatma/Intelligent-Exam-Monitoring-System"
+          target="_blank"
+          rel="noopener"
+        >
+          GitHub ↗
+        </a>
+
+      </article>
+
+
+      <!-- VIRTUAL MOUSE -->
+      <article class="project-card">
+
+        <img
+          class="project-image"
+          src="assets/project-mouse.png"
+          alt="Gesture-Controlled Virtual Mouse"
+        >
+
+        <div class="project-top">
+
+          <div class="project-title">
+            Gesture-Controlled Virtual Mouse
+          </div>
+
+          <div class="project-date">
+            Oct – Dec 2025
+          </div>
+
         </div>
 
-      </div>
 
+        <div class="project-desc">
 
-      <div class="project-desc">
+          A Python application that uses real-time hand tracking
+          to translate hand gestures into cursor movement and clicks.
 
-        A Python application that uses real-time hand tracking
-        to translate hand gestures into cursor movement and clicks.
-
-      </div>
-
-
-      <div class="project-tags">
-
-        <span class="tag">Python</span>
-        <span class="tag">OpenCV</span>
-        <span class="tag">MediaPipe</span>
-
-      </div>
-
-
-      <a
-        class="project-link"
-        href="https://github.com/nashrahfatma/Gesture-Controlled-Virtual-Mouse-"
-        target="_blank"
-        rel="noopener"
-      >
-        GitHub ↗
-      </a>
-
-    </article>
-
-
-    <!-- AIRLINE -->
-    <article class="project-card">
-
-      <img
-        class="project-image"
-        src="assets/project-airline.png"
-        alt="Airline Reservation System"
-      >
-
-      <div class="project-top">
-
-        <div class="project-title">
-          Airline Reservation System
         </div>
 
-        <div class="project-date">
-          Jul – Aug 2025
+
+        <div class="project-tags">
+
+          <span class="tag">Python</span>
+          <span class="tag">OpenCV</span>
+          <span class="tag">MediaPipe</span>
+
         </div>
 
-      </div>
+
+        
+          class="project-link"
+          href="https://github.com/nashrahfatma/Gesture-Controlled-Virtual-Mouse-"
+          target="_blank"
+          rel="noopener"
+        >
+          GitHub ↗
+        </a>
+
+      </article>
 
 
-      <div class="project-desc">
+      <!-- AIRLINE -->
+      <article class="project-card">
 
-        A full-stack flight booking platform with registration,
-        authentication, passenger details, booking workflows,
-        and MongoDB-backed data storage.
+        <img
+          class="project-image"
+          src="assets/project-airline.png"
+          alt="Airline Reservation System"
+        >
 
-      </div>
+        <div class="project-top">
+
+          <div class="project-title">
+            Airline Reservation System
+          </div>
+
+          <div class="project-date">
+            Jul – Aug 2025
+          </div>
+
+        </div>
 
 
-      <div class="project-tags">
+        <div class="project-desc">
 
-        <span class="tag">Node.js</span>
-        <span class="tag">MongoDB</span>
-        <span class="tag">HTML/CSS/JS</span>
+          A full-stack flight booking platform with registration,
+          authentication, passenger details, booking workflows,
+          and MongoDB-backed data storage.
 
-      </div>
+        </div>
 
 
-      <a
-        class="project-link"
-        href="https://github.com/nashrahfatma/Airline_Reservation_System"
-        target="_blank"
-        rel="noopener"
-      >
-        GitHub ↗
-      </a>
+        <div class="project-tags">
 
-    </article>
+          <span class="tag">Node.js</span>
+          <span class="tag">MongoDB</span>
+          <span class="tag">HTML/CSS/JS</span>
 
+        </div>
+
+
+        
+          class="project-link"
+          href="https://github.com/nashrahfatma/Airline_Reservation_System"
+          target="_blank"
+          rel="noopener"
+        >
+          GitHub ↗
+        </a>
+
+      </article>
+
+
+    </div>
+
+  </div>
+
+
+  <!-- OTHER PROJECTS — DATA ANALYST -->
+  <div class="role-block role-analytics">
+
+    <div class="projects-secondary-head">
+
+      <span>
+        Other projects
+      </span>
+
+      <span>
+        SQL · Python · Dashboards
+      </span>
+
+    </div>
+
+
+    <div class="project-grid project-grid-secondary">
+
+
+      <!-- AQI DASHBOARD -->
+      <article class="project-card">
+
+        <img
+          class="project-image"
+          src="assets/project-aqi-dashboard.png"
+          alt="India Air Quality (AQI) Analytics Dashboard"
+        >
+
+        <div class="project-top">
+
+          <div class="project-title">
+            India AQI Analytics Dashboard
+          </div>
+
+          <div class="project-date">
+            2026
+          </div>
+
+        </div>
+
+
+        <div class="project-desc">
+
+          Air pollution analytics across 10 major Indian cities using
+          SQL window functions and rolling averages. Found Delhi and
+          Lucknow spend ~25% of days in "Very Poor"/"Severe" AQI, with
+          a 4× winter spike versus monsoon.
+
+        </div>
+
+
+        <div class="project-tags">
+
+          <span class="tag">SQL</span>
+          <span class="tag">Python</span>
+          <span class="tag">Chart.js</span>
+
+        </div>
+
+
+        
+          class="project-link"
+          href="https://github.com/nashrahfatma/aqi-analytics-dashboard"
+          target="_blank"
+          rel="noopener"
+        >
+          GitHub ↗
+        </a>
+
+      </article>
+
+
+    </div>
 
   </div>
 
@@ -917,15 +1222,18 @@
     </div>
 
     <p class="contact-sub">
-      Open to Software Engineering and Python Developer roles —
+      <span class="role-block role-software">Open to Software Engineering and Python Developer roles —
       immediate joiner, open to remote, hybrid, or onsite,
-      and ready to relocate.
+      and ready to relocate.</span>
+      <span class="role-block role-analytics">Open to Data Analyst and Business/Reporting Analyst roles —
+      immediate joiner, open to remote, hybrid, or onsite,
+      and ready to relocate.</span>
     </p>
 
 
     <div class="contact-links">
 
-      <a
+      
         class="btn btn-primary"
         href="mailto:nashrahfatma40@gmail.com"
       >
@@ -936,7 +1244,7 @@
         📄 Resume available upon request via email or LinkedIn.
       </p>
 
-      <a
+      
         class="btn btn-ghost"
         href="https://linkedin.com/in/nashrah-fatma"
         target="_blank"
@@ -945,7 +1253,7 @@
         LinkedIn
       </a>
 
-      <a
+      
         class="btn btn-ghost"
         href="https://github.com/nashrahfatma"
         target="_blank"
